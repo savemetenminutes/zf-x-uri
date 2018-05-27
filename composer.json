@@ -1,7 +1,7 @@
 {
   "name": "savemetenminutes/zf-x-uri",
-  "description": "extended classes for zend framework (zend-uri)",
-  "license": "BSD 3-Clause License",
+  "description": "save me ten minutes - zend framework extended classes (zend-uri)",
+  "license": "BSD-3-Clause",
   "type": "library",
   "homepage": "https://github.com/savemetenminutes/zf-x-uri",
   "authors": [
@@ -12,7 +12,8 @@
   ],
   "require": {
     "php": ">=7",
-    "zendframework/zend-uri": "^2.6"
+    "zendframework/zend-uri": "^2.6",
+    "zendframework/zend-validator": "^2.10"
   },
   "autoload": {
     "psr-4": {
